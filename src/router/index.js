@@ -7,6 +7,11 @@ import FeaturesPage from "@/views/FeaturesPage.vue";
 import ExamplesPage from "@/views/ExamplesPage.vue";
 import IventsPage from "@/views/IventsPage.vue";
 import ReviewsPage from "@/views/ReviewsPage.vue";
+
+import ToxicityPage from "@/views/ToxicityPage.vue";
+import AssistantPage from "@/views/AssistantPage.vue";
+import IdentityPage from "@/views/IdentityPage.vue";
+
 // import auth from './middleware/auth'
 // import axios from 'axios'
 
@@ -34,6 +39,21 @@ const routes = [{
     path: "/features",
     name: "Features",
     component: FeaturesPage,
+  },
+  {
+    path: "/features/toxicity",
+    name: "Toxicity",
+    component: ToxicityPage,
+  },
+  {
+    path: "/features/assistant",
+    name: "Assistant",
+    component: AssistantPage,
+  },
+  {
+    path: "/features/identity",
+    name: "Identity",
+    component: IdentityPage,
   },
   {
     path: "/examples",

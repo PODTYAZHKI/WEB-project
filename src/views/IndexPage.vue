@@ -56,6 +56,9 @@
       </div>
       <!--/.features-->
     </div>
+    <v-footer padless class="footer">
+      <v-col class="text-center" cols="12"> &copy; АнтиТокс 2022 </v-col>
+    </v-footer>
   </div>
 </template>
 
@@ -124,6 +127,176 @@ export default {};
   }
   &__text {
     line-height: 1.5;
+  }
+}
+
+@media (max-width: 1300px) {
+  /* Works */
+  .works__item {
+    width: 50%;
+  }
+}
+
+@media (max-width: 991px) {
+  /* Nav */
+  .nav {
+    display: none;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    flex-direction: column;
+    text-align: right;
+    background-color: #31344e;
+  }
+
+  .nav__link {
+    padding: 9px 15px;
+  }
+
+  /* Burger */
+  .burger {
+    display: block;
+  }
+
+  /* Intro */
+  .intro__title {
+    font-size: 40px;
+  }
+
+  /* Features */
+  .features__item {
+    width: 50%;
+  }
+
+  /* Team */
+  .person {
+    width: 50%;
+    text-align: center;
+  }
+  .person__img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Socail */
+  .social {
+    justify-content: center;
+  }
+
+  /* Reviwes */
+  .reviews__photo {
+    overflow: hidden;
+    margin: 15px 0 40px;
+    width: 100%;
+  }
+
+  .reviews__content {
+    width: 100%;
+    padding-left: 0;
+    padding-bottom: 40px;
+  }
+  .reviews__img {
+    right: -15px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* Intro */
+  .intro {
+    height: auto;
+    padding-top: 130px;
+    padding-bottom: 30px;
+  }
+
+  .intro__title {
+    font-size: 30px;
+  }
+
+  .intro__subtitle {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+
+  /* Features */
+  .features {
+    margin: 40px 0;
+  }
+  .features__item {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* Works */
+
+  .works_1 .works__item {
+    width: 100%;
+    height: 300px;
+  }
+  .works_2 .works__item {
+    width: 100%;
+    height: 300px;
+  }
+
+  .works_3 .works__item {
+    width: 100%;
+    height: 300px;
+  }
+
+  .works_4 .works__item {
+    width: 100%;
+    height: 300px;
+  }
+
+  .works__item {
+    width: 100%;
+    height: 300px;
+  }
+
+  /* Team */
+  .team {
+    margin: 60px 0 30px;
+  }
+  .person {
+    width: 100%;
+    text-align: center;
+  }
+  /* Reviwes */
+  .reviews__text {
+    font-size: 25px;
+  }
+  /* Btn */
+  .btn--long {
+    min-width: 260px;
+  }
+  /* Download */
+  .download {
+    margin: 50px;
+  }
+  .download__title {
+    font-size: 24px;
+  }
+  /* Footer */
+
+  .footer__inner {
+    padding: 30px 0;
+  }
+  .footer__item {
+    width: 100%;
+    margin-bottom: 30px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .footer__item:last-child {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 414px) {
+  /* Reviwes */
+  .reviews__img {
+    right: -100px;
   }
 }
 </style>
