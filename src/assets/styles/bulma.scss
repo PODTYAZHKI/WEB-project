@@ -1,0 +1,18 @@
+@import '~bulma/sass/utilities/_all';
+
+$primary: #2673F0;
+$success: #67C23A;
+$warning: #E6A23C;
+$danger:  #FF5B5B;
+$info:    #909399;
+
+$link: $primary;
+
+// Table vars
+$table-head-background-color: #F7F8F9;
+
+@import '~bulma';
+
+table td:not([align]), table th:not([align]) {
+  text-align: center;
+}
