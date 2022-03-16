@@ -9,6 +9,8 @@ import IventsPage from "@/views/IventsPage.vue";
 import ReviewsPage from "@/views/ReviewsPage.vue";
 
 import ToxicityPage from "@/views/ToxicityPage.vue";
+import QnaPage from "@/views/QnaPage.vue";
+import UsePage from "@/views/UsePage.vue";
 import AssistantPage from "@/views/AssistantPage.vue";
 import IdentityPage from "@/views/IdentityPage.vue";
 
@@ -44,6 +46,16 @@ const routes = [{
     path: "/features/toxicity",
     name: "Toxicity",
     component: ToxicityPage,
+  },
+  {
+    path: "/features/qna",
+    name: "Questions and Answers",
+    component: QnaPage,
+  },
+  {
+    path: "/features/use",
+    name: "Universal Sentence Encoder",
+    component: UsePage,
   },
   {
     path: "/features/assistant",
